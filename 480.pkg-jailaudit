@@ -38,7 +38,7 @@ fi
 pkg_cmd="/usr/sbin/pkg"
 
 rc=0
-echo "#############################pkg audit for jails#############################"
+echo "Checking jail packages for security vulnerabilities:"
 echo
 case "${daily_status_security_pkgjailaudit_enable:-YES}" in
     [Nn][Oo])
